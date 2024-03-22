@@ -1,5 +1,5 @@
 <?php
-require_once('entities/product.class.php');
+require_once('product.class.php');
 ?>
 <?php
 include_once('header.php');

@@ -5,9 +5,7 @@ class Db{
     //Connection initialization function
     public function connect()
     {
-        $connection = mysqli_connect("localhost", "root", "",
-
-        "demo_lap3");
+        $connection = mysqli_connect("localhost", "root", "","demo_lab3");
 
         mysqli_set_charset($connection, 'utf8');
         // Check connection
